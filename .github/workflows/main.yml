@@ -1,8 +1,8 @@
-name: cucumber-selenium - schedule
+name: cucumber-selenium-schedule
 on : 
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   my-job:
     runs-on: ubuntu-latest
