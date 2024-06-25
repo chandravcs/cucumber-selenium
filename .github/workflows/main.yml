@@ -1,0 +1,8 @@
+name: cucumber-selenium
+'on': push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-tests
+        run: echo "Hello My Cucumber-Selenium"
