@@ -1,5 +1,8 @@
 name: cucumber-selenium
-'on': push
+on : 
+  push : 
+     branches:
+      - development
 jobs:
   my-job:
     runs-on: ubuntu-latest
